@@ -1,0 +1,50 @@
+{
+  "name": "using-lit-apollo",
+  "version": "1.0.0",
+  "description": "A slide deck on GraphQL and Web Components",
+  "main": "dist/index.html",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -cw",
+    "postinstall": "patch-package",
+    "test": "echo \"no tests\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/apollo-elements/using-lit-apollo.git"
+  },
+  "keywords": [
+    "Web Components",
+    "slides",
+    "GraphQL"
+  ],
+  "author": "Benny Powers <web@bennypowers.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apollo-elements/using-lit-apollo/issues"
+  },
+  "homepage": "https://github.com/apollo-elements/using-lit-apollo#readme",
+  "devDependencies": {
+    "@open-wc/rollup-plugin-html": "^1.2.3",
+    "@rollup/plugin-commonjs": "^15.0.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "npm-run-all": "^4.1.5",
+    "patch-package": "^6.2.2",
+    "rollup": "^2.26.9",
+    "rollup-plugin-license": "^2.2.0",
+    "rollup-plugin-minify-html-literals": "^1.2.5",
+    "rollup-plugin-terser": "^7.0.1",
+    "rollup-plugin-workbox": "^5.2.1"
+  },
+  "dependencies": {
+    "@gluon/keybinding": "^1.1.0",
+    "@power-elements/json-viewer": "^2.1.0",
+    "@power-elements/service-worker": "^5.0.0",
+    "@webcomponents/webcomponentsjs": "^2.4.4",
+    "marked": "^1.1.1",
+    "prismjs": "^1.21.0",
+    "slidem": "^1.2.8",
+    "zero-md": "^1.3.4"
+  }
+}
