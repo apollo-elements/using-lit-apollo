@@ -3,4 +3,4 @@ sw.js.map
 workbox-*
 !workbox-config.js
 
-dist/*.js
+dist

@@ -39,8 +39,7 @@ Version: 1.0.0
 License: BSD-3-Clause
 Private: false
 Description: HTML template literals in JavaScript
-Repository: git+https://github.com/Polymer/lit-html.git
-Homepage: https://github.com/Polymer/lit-html#readme
+Repository: undefined
 Author: The Polymer Authors
 License Copyright:
 ===
@@ -118,8 +117,7 @@ Version: 1.2.1
 License: MIT
 Private: false
 Description: A minimal router
-Repository: git+https://github.com/ruphin/gluon-router.git
-Homepage: https://github.com/ruphin/gluon-router#readme
+Repository: https://github.com/ruphin/gluon-router.git
 Author: Goffert van Gool <ruphin@ruphin.net>
 License Copyright:
 ===
@@ -193,7 +191,6 @@ License: MIT
 Private: false
 Description: A simple keybinding element
 Repository: git+https://github.com/ruphin/gluon-keybinding.git
-Homepage: https://github.com/ruphin/gluon-keybinding#readme
 Author: Goffert van Gool <ruphin@ruphin.net>
 License Copyright:
 ===
@@ -228,8 +225,7 @@ Version: 1.2.8
 License: MIT
 Private: false
 Description: A Web Component based slide deck
-Repository: git+ssh://git@github.com/ruphin/slidem.git
-Homepage: https://github.com/ruphin/slidem#readme
+Repository: undefined
 Author: Goffert van Gool
 License Copyright:
 ===
@@ -264,8 +260,7 @@ Version: 2.1.0
 License: ISC
 Private: false
 Description: Custom Element that shows a JavaScript object's properties as syntax-highlighted JSON.
-Repository: git+https://github.com/bennypowers/json-viewer.git
-Homepage: https://github.com/bennypowers/json-viewer#readme
+Repository: undefined
 Author: Benny Powers <web@bennypowers.com>
 
 ---
